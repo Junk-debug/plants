@@ -1,0 +1,51 @@
+$bg-color: #EDF2EC
+$nav-color: #010201
+$red-color: #E06733
+$green-color: #499A18
+$light-grey-color: #717171
+$dark-grey-color: #636060
+
+*
+    box-sizing: border-box
+    margin: 0
+    padding: 0
+
+
+a 
+    color: black
+    text-decoration: none
+li
+    list-style-type: none
+nav
+
+.header
+    background-color: $bg-color
+    padding: 42px 111px 0px 109px
+    min-height: 134px
+    &__navbar
+        display: flex
+        justify-content: space-between
+        align-items: center
+        height: 50px
+    &__logo
+        display: flex
+        flex-direction: row
+        align-items: flex-end
+    &__nav-list
+        display: flex
+        flex-direction: row
+        align-items: center
+    &__logo-text
+        font-size: 16px
+    &__list-item
+        a
+            color: $nav-color
+            &:hover
+                color: $red-color
+        font-size: 16px
+        margin-right: 46px
+        &:last-child
+            margin-right: 0
+            
+
+    

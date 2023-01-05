@@ -5,8 +5,8 @@
 		"../sass/style.sass"
 	],
 	"sourcesContent": [
-		"h1 {\n    color: gree; }\n"
+		"$bg-color: #EDF2EC;\n$nav-color: #010201;\n$red-color: #E06733;\n$green-color: #499A18;\n$light-grey-color: #717171;\n$dark-grey-color: #636060;\n\n* {\n    box-sizing: border-box;\n    margin: 0;\n    padding: 0; }\n\n\na {\n    color: black;\n    text-decoration: none; }\nli {\n    list-style-type: none; }\nnav {}\n\n.header {\n    background-color: $bg-color;\n    padding: 42px 111px 0px 109px;\n    min-height: 134px;\n    &__navbar {\n        display: flex;\n        justify-content: space-between;\n        align-items: center;\n        height: 50px; }\n    &__logo {\n        display: flex;\n        flex-direction: row;\n        align-items: flex-end; }\n    &__nav-list {\n        display: flex;\n        flex-direction: row;\n        align-items: center; }\n    &__logo-text {\n        font-size: 16px; }\n    &__list-item {\n        a {\n            color: $nav-color;\n            &:hover {\n                color: $red-color; } }\n        font-size: 16px;\n        margin-right: 46px;\n        &:last-child {\n            margin-right: 0; } } }\n\n\n\n"
 	],
 	"names": [],
-	"mappings": ";AAAA,AAAA,EAAE,CAAC;EACC,KAAK,EAAE,IAAI;CAAG"
+	"mappings": ";AAOA,AAAA,CAAC,CAAC;EACE,UAAU,EAAE,UAAU;EACtB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CAAG;;;AAGjB,AAAA,CAAC,CAAC;EACE,KAAK,EAAE,KAAK;EACZ,eAAe,EAAE,IAAI;CAAG;;;AAC5B,AAAA,EAAE,CAAC;EACC,eAAe,EAAE,IAAI;CAAG;;;AAG5B,AAAA,OAAO,CAAC;EACJ,gBAAgB,EArBT,OAAO;EAsBd,OAAO,EAAE,oBAAoB;EAC7B,UAAU,EAAE,KAAK;CAwBa;;;AAvB7B,AAAD,eAAS,CAAC;EACN,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,WAAW,EAAE,MAAM;EACnB,MAAM,EAAE,IAAI;CAAG;;;AAClB,AAAD,aAAO,CAAC;EACJ,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,WAAW,EAAE,QAAQ;CAAG;;;AAC3B,AAAD,iBAAW,CAAC;EACR,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,WAAW,EAAE,MAAM;CAAG;;;AACzB,AAAD,kBAAY,CAAC;EACT,SAAS,EAAE,IAAI;CAAG;;;AACrB,AAAD,kBAAY,CAAC;EAKT,SAAS,EAAE,IAAI;EACf,YAAY,EAAE,IAAI;CAEM;;;AAR3B,AACG,kBADQ,CACR,CAAC,CAAC;EACE,KAAK,EAxCL,OAAO;CA0CmB;;;AAJjC,AAGO,kBAHI,CACR,CAAC,AAEI,MAAM,CAAC;EACJ,KAAK,EAzCT,OAAO;CAyCiB;;;AAJ/B,AAOG,kBAPQ,AAOP,WAAW,CAAC;EACT,YAAY,EAAE,CAAC;CAAG"
 }

@@ -1,6 +1,74 @@
-/* line 1, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
-h1 {
-  color: gree;
+/* line 8, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 14, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* line 17, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+li {
+  list-style-type: none;
+}
+
+/* line 21, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+.header {
+  background-color: #EDF2EC;
+  padding: 42px 111px 0px 109px;
+  min-height: 134px;
+}
+
+/* line 25, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+.header__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+/* line 30, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+.header__logo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+/* line 34, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+.header__nav-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* line 38, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+.header__logo-text {
+  font-size: 16px;
+}
+
+/* line 40, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+.header__list-item {
+  font-size: 16px;
+  margin-right: 46px;
+}
+
+/* line 41, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+.header__list-item a {
+  color: #010201;
+}
+
+/* line 43, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+.header__list-item a:hover {
+  color: #E06733;
+}
+
+/* line 47, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+.header__list-item:last-child {
+  margin-right: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
