@@ -21,15 +21,32 @@ nav
 .green
     color: $green-color
 
+.container
+    position: relative
+    max-width: 1140px
+    margin: 0 auto
+
+.button 
+    display: flex
+    align-items: center
+    justify-content: center
+    border: 1px solid $orange-color 
+    border-radius: 5px
+    width: 161px
+    height: 50px
+
 .header
     background-color: $bg-color
-    padding: 42px 111px 0px 109px
+    display: flex
+    justify-content: center
+    align-items: center
     min-height: 134px
     &__navbar
         display: flex
         justify-content: space-between
         align-items: center
         height: 50px
+        width: 1220px
     &__logo
         display: flex
         flex-direction: row
@@ -41,21 +58,23 @@ nav
     &__logo-text
         font-size: 16px
     &__list-item
-        a
-            color: $nav-color
-            &:hover
-                color: $orange-color
         font-size: 16px
         margin-right: 46px
         &:last-child
             margin-right: 0
+        a
+            color: $nav-color
+            &:hover
+                color: $orange-color
+        
             
 .welcome
-    min-height: 532px
-    padding: 62px 109px 0 109px
-    display: flex
-    justify-content: space-between
     background: $bg-color
+    min-height: 532px
+    padding-top: 63px
+    &__content-container
+        display: flex
+        justify-content: space-between
     &__text-container
         width: 549px
         height: 340px
@@ -65,15 +84,12 @@ nav
         color: $light-grey-color
         margin-bottom: 42px
     &__text
-        width: 525.44px
+        max-width: 525.44px
         color: $dark-grey-color
         font-size: 20px
         line-height: 35px
         margin-bottom: 48px
     &__button
-        display: flex
-        align-items: center
-        justify-content: center
         background-color: $bg-color
         border: 2px solid $orange-color 
         border-radius: 10px
@@ -81,4 +97,22 @@ nav
         width: 158px
         height: 44px
         
-    
+.about
+    padding-top: 93px
+    &__content-container
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &__text-container
+        width: 605px
+        height: 350px
+    &__header
+        max-width: 463px
+        font-size: 40px
+        color: $orange-color
+        margin-bottom: 40px
+    &__text
+        line-height: 30px
+        font-size: 20px
+        color: $dark-grey-color
+
