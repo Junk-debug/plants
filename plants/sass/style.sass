@@ -23,7 +23,7 @@ nav
 
 .container
     position: relative
-    max-width: 1140px
+    max-width: 1222px
     margin: 0 auto
 
 .button 
@@ -60,6 +60,7 @@ nav
         align-items: center
     &__logo-text
         font-size: 16px
+        line-height: 11px
     &__list-item
         font-size: 16px
         margin-right: 46px
@@ -126,9 +127,11 @@ nav
     min-height: 1300px
     padding-top: 40px
     &__header-bar
+        max-width: 1007px
         display: flex
         justify-content: space-between
         align-items: center
+        margin-bottom: 90px
     &__header
         font-size: 40px
         width: 306px
@@ -142,3 +145,30 @@ nav
         margin-right: 38px
         &:last-child
             margin-right: 0
+    &__services
+        height: 955px
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+        align-content: space-between
+    &__service-card
+        width: 329px
+    &__text-container
+        padding-top: 10px
+        height: 100px
+        display: flex
+        flex-direction: column
+        align-items: center
+        border: 1px solid #E3E1D5
+        border-radius: 0px 0px 20px 20px
+    &__card-img
+        display: block
+        width: 329px
+        border-radius: 20px 20px 0px 0px
+    &__card-header
+        color: $orange-color
+        font-size: 20px
+        margin-bottom: 10px
+    &__card-text
+        color: $light-grey-color
+        font-size: 16px

@@ -24,7 +24,7 @@ li {
 /* line 24, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .container {
   position: relative;
-  max-width: 1140px;
+  max-width: 1222px;
   margin: 0 auto;
 }
 
@@ -80,50 +80,51 @@ li {
 /* line 61, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .header__logo-text {
   font-size: 16px;
+  line-height: 11px;
 }
 
-/* line 63, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 64, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .header__list-item {
   font-size: 16px;
   margin-right: 46px;
 }
 
-/* line 66, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 67, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .header__list-item:last-child {
   margin-right: 0;
 }
 
-/* line 68, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 69, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .header__list-item a {
   color: #010201;
 }
 
-/* line 70, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 71, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .header__list-item a:hover {
   color: #E06733;
 }
 
-/* line 74, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 75, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .welcome {
   background: #EDF2EC;
   min-height: 532px;
   padding-top: 63px;
 }
 
-/* line 78, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 79, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .welcome__content-container {
   min-width: 1222px;
   display: flex;
   justify-content: space-between;
 }
 
-/* line 82, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 83, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .welcome__text-container {
   width: 549px;
   height: 340px;
 }
 
-/* line 85, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 86, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .welcome__header {
   font-size: 45px;
   line-height: 50px;
@@ -131,7 +132,7 @@ li {
   margin-bottom: 42px;
 }
 
-/* line 90, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 91, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .welcome__text {
   max-width: 525.44px;
   color: #636060;
@@ -140,7 +141,7 @@ li {
   margin-bottom: 48px;
 }
 
-/* line 96, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 97, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .welcome__button {
   background-color: #EDF2EC;
   border: 2px solid #E06733;
@@ -150,26 +151,26 @@ li {
   height: 44px;
 }
 
-/* line 104, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 105, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .about {
   min-height: 666px;
   padding-top: 93px;
 }
 
-/* line 107, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 108, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .about__content-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-/* line 111, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 112, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .about__text-container {
   width: 605px;
   height: 350px;
 }
 
-/* line 114, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 115, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .about__header {
   max-width: 463px;
   font-size: 40px;
@@ -177,40 +178,42 @@ li {
   margin-bottom: 40px;
 }
 
-/* line 119, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 120, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .about__text {
   line-height: 30px;
   font-size: 20px;
   color: #636060;
 }
 
-/* line 124, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 125, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .service {
   background-color: #EDF2EC;
   min-height: 1300px;
   padding-top: 40px;
 }
 
-/* line 128, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 129, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .service__header-bar {
+  max-width: 1007px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 90px;
 }
 
-/* line 132, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 135, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .service__header {
   font-size: 40px;
   width: 306px;
   color: #499A18;
 }
 
-/* line 136, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 139, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .service__buttons-bar {
   display: flex;
 }
 
-/* line 138, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 141, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .service__button {
   color: #E06733;
   font-size: 20px;
@@ -218,9 +221,54 @@ li {
   margin-right: 38px;
 }
 
-/* line 143, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 146, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .service__button:last-child {
   margin-right: 0;
+}
+
+/* line 148, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+.service__services {
+  height: 955px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+/* line 154, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+.service__service-card {
+  width: 329px;
+}
+
+/* line 156, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+.service__text-container {
+  padding-top: 10px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #E3E1D5;
+  border-radius: 0px 0px 20px 20px;
+}
+
+/* line 164, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+.service__card-img {
+  display: block;
+  width: 329px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+/* line 168, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+.service__card-header {
+  color: #E06733;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* line 172, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+.service__card-text {
+  color: #717171;
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=style.css.map */
