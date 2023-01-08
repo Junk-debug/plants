@@ -329,4 +329,39 @@ li {
   font-size: 20px;
 }
 
+/* line 211, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+.contacts {
+  min-height: 550px;
+  background-color: #EDF2EC;
+  padding-top: 53px;
+}
+
+/* line 216, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+.contacts__content-container img {
+  position: absolute;
+}
+
+/* line 218, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+.contacts__city-selector {
+  position: absolute;
+  top: 95px;
+  right: 0;
+}
+
+/* line 222, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+.contacts__city-selector select {
+  width: 450px;
+  height: 50px;
+}
+
+/* line 225, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+.contacts__header {
+  color: #499A18;
+  font-size: 40px;
+  position: absolute;
+  top: 7px;
+  right: 50%;
+  transform: translate(50%, 0);
+}
+
 /*# sourceMappingURL=style.css.map */
