@@ -237,12 +237,13 @@ li {
 
 /* line 154, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .service__service-card {
-  width: 329px;
+  width: 330px;
 }
 
 /* line 156, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .service__text-container {
   padding-top: 10px;
+  width: 330px;
   height: 100px;
   display: flex;
   flex-direction: column;
@@ -251,24 +252,81 @@ li {
   border-radius: 0px 0px 20px 20px;
 }
 
-/* line 164, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 165, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .service__card-img {
   display: block;
-  width: 329px;
+  width: 330px;
   border-radius: 20px 20px 0px 0px;
 }
 
-/* line 168, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 169, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .service__card-header {
   color: #E06733;
   font-size: 20px;
   margin-bottom: 10px;
 }
 
-/* line 172, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 173, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .service__card-text {
   color: #717171;
   font-size: 16px;
+}
+
+/* line 177, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+.prices {
+  padding-top: 40px;
+  min-height: 560px;
+}
+
+/* line 180, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+.prices__content-container {
+  height: 405px;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: space-between;
+}
+
+/* line 185, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+.prices__content-container img {
+  align-self: flex-end;
+}
+
+/* line 187, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+.prices__price-box {
+  width: 332px;
+  height: 391px;
+  background-color: green;
+}
+
+/* line 191, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+.prices__header1 {
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 60px;
+}
+
+/* line 195, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+.prices__header2 {
+  text-align: right;
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 38px;
+}
+
+/* line 200, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+.prices__text-container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-end;
+  width: 459px;
+  margin-bottom: 39px;
+}
+
+/* line 206, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+.prices__button {
+  background-color: white;
+  color: #E06733;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
