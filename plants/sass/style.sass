@@ -34,6 +34,7 @@ nav
     justify-content: center
     border: 1px solid $orange-color 
     border-radius: 5px
+    background-color: transparent
     width: 161px
     height: 50px
     &:hover
@@ -77,11 +78,12 @@ nav
 .welcome
     background: $bg-color
     min-height: 532px
-    padding-top: 63px
+    padding-top: 62px
     &__content-container
         min-width: 1222px
         display: flex
         justify-content: space-between
+        align-items: center
     &__text-container
         width: 549px
         height: 340px
@@ -97,7 +99,6 @@ nav
         line-height: 35px
         margin-bottom: 48px
     &__button
-        background-color: $bg-color
         border: 2px solid $orange-color 
         border-radius: 10px
         font-size: 16px
@@ -143,7 +144,6 @@ nav
     &__button
         color: $orange-color
         font-size: 20px
-        background-color: $bg-color
         margin-right: 38px
         &:last-child
             margin-right: 0
@@ -229,7 +229,6 @@ nav
         width: 459px
         margin-bottom: 39px
     &__button
-        background-color: white
         color: $orange-color
         font-size: 20px
 
@@ -244,9 +243,36 @@ nav
         position: absolute
         top: 95px
         right: 0
-        select
-            width: 450px
-            height: 50px
+    &__dropdown
+        position: relative
+        &::before
+            content: ""
+            position: absolute
+            top: 50%
+            right: 35px
+            transform: translateY(-50%)
+            width: 16px
+            height: 16px
+            display: block
+            background: url('../icons/accordion_btn-dark.svg') no-repeat right
+            pointer-events: none
+    &__select
+        //reset
+        outline: none
+        -moz-appearance: none
+        -webkit-appearance: none
+        appearance: none
+        border: none 
+        //styles
+        width: 450px
+        height: 50px
+        padding: 5px 35px 5px 20px
+        background-color: #D6E7D2 
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+        cursor: pointer
+        font-size: 20px
+        line-height: 40px
+        color: $light-grey-color
     &__header
         color: $green-color
         font-size: 40px

@@ -35,17 +35,18 @@ li {
   justify-content: center;
   border: 1px solid #E06733;
   border-radius: 5px;
+  background-color: transparent;
   width: 161px;
   height: 50px;
 }
 
-/* line 39, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 40, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .button:hover {
   background-color: #E06733;
   color: white;
 }
 
-/* line 43, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 44, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .header {
   background-color: #EDF2EC;
   display: flex;
@@ -54,7 +55,7 @@ li {
   min-height: 134px;
 }
 
-/* line 49, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 50, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .header__navbar {
   display: flex;
   justify-content: space-between;
@@ -63,68 +64,69 @@ li {
   width: 1220px;
 }
 
-/* line 55, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 56, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .header__logo {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
 }
 
-/* line 59, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 60, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .header__nav-list {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-/* line 63, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 64, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .header__logo-text {
   font-size: 16px;
   line-height: 11px;
 }
 
-/* line 66, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 67, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .header__list-item {
   font-size: 16px;
   margin-right: 46px;
 }
 
-/* line 69, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 70, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .header__list-item:last-child {
   margin-right: 0;
 }
 
-/* line 71, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 72, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .header__list-item a {
   color: #010201;
 }
 
-/* line 73, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 74, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .header__list-item a:hover {
   color: #E06733;
 }
 
-/* line 77, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 78, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .welcome {
   background: #EDF2EC;
   min-height: 532px;
-  padding-top: 63px;
+  padding-top: 62px;
 }
 
-/* line 81, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 82, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .welcome__content-container {
   min-width: 1222px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-/* line 85, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 87, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .welcome__text-container {
   width: 549px;
   height: 340px;
 }
 
-/* line 88, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 90, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .welcome__header {
   font-size: 45px;
   line-height: 50px;
@@ -132,7 +134,7 @@ li {
   margin-bottom: 42px;
 }
 
-/* line 93, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 95, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .welcome__text {
   max-width: 525.44px;
   color: #636060;
@@ -141,9 +143,8 @@ li {
   margin-bottom: 48px;
 }
 
-/* line 99, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 101, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .welcome__button {
-  background-color: #EDF2EC;
   border: 2px solid #E06733;
   border-radius: 10px;
   font-size: 16px;
@@ -151,26 +152,26 @@ li {
   height: 44px;
 }
 
-/* line 107, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 108, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .about {
   min-height: 666px;
   padding-top: 93px;
 }
 
-/* line 110, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 111, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .about__content-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-/* line 114, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 115, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .about__text-container {
   width: 605px;
   height: 350px;
 }
 
-/* line 117, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 118, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .about__header {
   max-width: 463px;
   font-size: 40px;
@@ -178,21 +179,21 @@ li {
   margin-bottom: 40px;
 }
 
-/* line 122, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 123, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .about__text {
   line-height: 30px;
   font-size: 20px;
   color: #636060;
 }
 
-/* line 127, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 128, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .service {
   background-color: #EDF2EC;
   min-height: 1300px;
   padding-top: 40px;
 }
 
-/* line 131, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 132, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .service__header-bar {
   max-width: 1007px;
   display: flex;
@@ -201,23 +202,22 @@ li {
   margin-bottom: 90px;
 }
 
-/* line 137, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 138, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .service__header {
   font-size: 40px;
   width: 306px;
   color: #499A18;
 }
 
-/* line 141, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 142, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .service__buttons-bar {
   display: flex;
 }
 
-/* line 143, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 144, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .service__button {
   color: #E06733;
   font-size: 20px;
-  background-color: #EDF2EC;
   margin-right: 38px;
 }
 
@@ -355,37 +355,67 @@ li {
 
 /* line 231, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .prices__button {
-  background-color: white;
   color: #E06733;
   font-size: 20px;
 }
 
-/* line 236, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 235, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .contacts {
   min-height: 550px;
   background-color: #EDF2EC;
   padding-top: 53px;
 }
 
-/* line 241, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 240, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .contacts__content-container img {
   position: absolute;
 }
 
-/* line 243, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 242, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .contacts__city-selector {
   position: absolute;
   top: 95px;
   right: 0;
 }
 
-/* line 247, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
-.contacts__city-selector select {
-  width: 450px;
-  height: 50px;
+/* line 246, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+.contacts__dropdown {
+  position: relative;
 }
 
-/* line 250, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 248, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+.contacts__dropdown::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 35px;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  display: block;
+  background: url("../icons/accordion_btn-dark.svg") no-repeat right;
+  pointer-events: none;
+}
+
+/* line 259, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+.contacts__select {
+  outline: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  width: 450px;
+  height: 50px;
+  padding: 5px 35px 5px 20px;
+  background-color: #D6E7D2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 40px;
+  color: #717171;
+}
+
+/* line 276, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .contacts__header {
   color: #499A18;
   font-size: 40px;
@@ -395,12 +425,12 @@ li {
   transform: translate(50%, 0);
 }
 
-/* line 258, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 284, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .footer {
   min-height: 130px;
 }
 
-/* line 260, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 286, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .footer__content-container {
   display: flex;
   align-items: center;
@@ -408,7 +438,7 @@ li {
   min-height: 130px;
 }
 
-/* line 265, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 291, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .footer__data {
   font-size: 20px;
   line-height: 50px;
@@ -416,25 +446,25 @@ li {
   display: flex;
 }
 
-/* line 270, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 296, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .footer__name {
   font-size: 20px;
   line-height: 50px;
 }
 
-/* line 273, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 299, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .footer__social-list {
   height: 50px;
   display: flex;
   align-items: center;
 }
 
-/* line 277, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 303, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .footer__social-list a {
   padding-right: 20px;
 }
 
-/* line 279, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
+/* line 305, ../../../../../Users/junk/Desktop/plants/junk-debug-JSFEPRESCHOOL2022Q4/plants/sass/style.sass */
 .footer__social-list a:last-child {
   padding-right: 0;
 }
