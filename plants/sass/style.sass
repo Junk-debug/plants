@@ -4,6 +4,8 @@ $orange-color: #E06733
 $green-color: #499A18
 $light-grey-color: #717171
 $dark-grey-color: #636060
+$border-color: #E3E1D5
+
 
 *
     box-sizing: border-box
@@ -160,7 +162,7 @@ nav
         display: flex
         flex-direction: column
         align-items: center
-        border: 1px solid #E3E1D5
+        border: 1px solid $border-color
         border-radius: 0px 0px 20px 20px
     &__card-img
         display: block
@@ -183,11 +185,34 @@ nav
         flex-flow: column wrap
         align-content: space-between
         img
+            display: flex
             align-self: flex-end
+    &__prices
     &__price-box
+        border: 1px solid $border-color
+        border-radius: 20px
         width: 332px
-        height: 391px
-        background-color: green
+        height: 282px
+        display: flex
+        justify-content: center
+        align-items: center
+    &__item-box
+        height: 214px
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+    &__item
+        padding: 16px 40px
+        background-color: $bg-color
+        border-radius: 20px
+        width: 250px
+        height: 50px
+    &__item-content
+        display: flex
+        justify-content: space-between
+        align-items: center
+        width: 170px
+        height: 18px
     &__header1
         font-size: 40px
         line-height: 48px
@@ -229,3 +254,27 @@ nav
         top: 7px
         right: 50% 
         transform: translate(50%, 0) 
+
+.footer
+    min-height: 130px
+    &__content-container
+        display: flex
+        align-items: center
+        justify-content: space-between
+        min-height: 130px
+    &__data
+        font-size: 20px
+        line-height: 50px
+        word-spacing: 20px
+        display: flex
+    &__name 
+        font-size: 20px
+        line-height: 50px
+    &__social-list
+        height: 50px
+        display: flex
+        align-items: center
+        a
+            padding-right: 20px
+            &:last-child
+                padding-right: 0
