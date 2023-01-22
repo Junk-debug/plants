@@ -32,6 +32,8 @@ nav
     margin: 0 auto
 
 .button 
+    transition: 0.7s
+    cursor: pointer
     display: flex
     align-items: center
     justify-content: center
@@ -64,15 +66,15 @@ nav
     &__nav-list
         display: flex
         flex-direction: row
+        justify-content: space-between
         align-items: center
+        width: 452px
     &__logo-text
         font-size: 16px
         line-height: 11px
+.nav-menu
     &__list-item
         font-size: 16px
-        margin-right: 46px
-        &:last-child
-            margin-right: 0
         a
             color: $nav-color
             &:hover
@@ -86,25 +88,23 @@ nav
     min-height: 532px
     padding-top: 62px
     &__content-container
-        min-width: 1222px
         display: flex
         justify-content: space-between
         align-items: center
     &__text-container
-        width: 549px
-        height: 340px
+        max-width: 549px
     &__header
         font-weight: 700
         font-size: 45px
         line-height: 50px
         color: $light-grey-color
-        margin-bottom: 42px
+        margin-bottom: 46px
     &__text
         max-width: 525.44px
         color: $dark-grey-color
         font-size: 20px
         line-height: 35px
-        margin-bottom: 48px
+        margin-bottom: 47px
     &__button
         border: 2px solid $orange-color 
         border-radius: 10px
@@ -122,8 +122,7 @@ nav
         justify-content: space-between
         align-items: center
     &__text-container
-        width: 605px
-        height: 350px
+        max-width: 605px
     &__header
         font-weight: 400
         max-width: 463px
@@ -154,16 +153,15 @@ nav
         color: $green-color
     &__buttons-bar
         display: flex
+        justify-content: space-between
+        width: 559px
     &__button
         font-family: 'Inika', serif
         color: $orange-color
         font-size: 20px
-        margin-right: 38px
-        &:last-child
-            margin-right: 0
     &__services
         font-family: 'Inter', sans-serif
-        height: 955px
+        min-height: 955px
         display: flex
         flex-wrap: wrap
         justify-content: space-between
@@ -182,6 +180,8 @@ nav
     &__card-img
         display: block
         width: 330px
+        height: 350px
+        object-fit: cover
         border-radius: 20px 20px 0px 0px
     &__card-header
         color: $orange-color
@@ -200,10 +200,9 @@ nav
         display: flex
         flex-flow: column wrap
         align-content: space-between
-        img
-            display: flex
-            align-self: flex-end
-    &__prices
+    &__leaves-img
+        display: flex
+        align-self: flex-end
     &__price-box
         border: 1px solid $border-color
         border-radius: 20px
@@ -213,6 +212,7 @@ nav
         justify-content: center
         align-items: center
     &__item-box
+        width: 250px
         height: 214px
         display: flex
         flex-direction: column
@@ -221,13 +221,11 @@ nav
         padding: 16px 40px
         background-color: $bg-color
         border-radius: 20px
-        width: 250px
         height: 50px
     &__item-content
         display: flex
         justify-content: space-between
         align-items: center
-        width: 170px
         height: 18px
         p
             font-size: 20px
@@ -246,7 +244,7 @@ nav
         flex-flow: column wrap
         align-items: flex-end
         width: 459px
-        margin-bottom: 39px
+        margin-bottom: 45px
     &__button
         font-family: 'Inika', serif
         color: $orange-color
@@ -293,6 +291,7 @@ nav
         font-family: 'Inter', sans-serif
         font-size: 20px
         line-height: 40px
+        letter-spacing: 1px
         color: $light-grey-color
     &__header
         font-family: 'Inika', serif
@@ -324,6 +323,385 @@ nav
         display: flex
         align-items: center
         li
+            height: 32px
             margin-right: 20px
             &:last-child
                 margin-right: 0
+@media (max-width: 790px)
+    .prices
+        &__text-container
+            width: 430px
+        &__header2
+            font-size: 35px
+@media (max-width: 768px)
+    .container
+        max-width: 668px
+    .header
+        min-height: 117px
+        &__navbar
+            width: 668px
+            height: 47px
+    .welcome
+        padding-top: 40px
+        min-height: 420px
+        &__leaves-img
+            width: 280px
+            height: 254px
+        &__content-container
+            min-height: 310px
+            flex-direction: row-reverse
+            align-items: start
+        &__text-container
+            width: 346px
+        &__header
+            font-size: 35px
+            margin-bottom: 31px
+        &__text
+            font-size: 16px
+            margin-bottom: 36px
+            line-height: 25px
+    .about
+        min-height: 783px
+        padding-top: 40px
+        &__content-container
+            flex-direction: column
+            img
+                width: 250px
+                height: 258px
+        &__text-container
+            max-width: 668px
+            display: flex
+            flex-direction: column
+            align-items: center
+            height: 322px
+            margin-bottom: 68px
+        &__header
+            text-align: center
+            font-size: 35px
+            margin-bottom: 52px
+        &__text
+    .service
+        min-height: 1780px
+        padding-top: 60px
+        &__header-bar
+            flex-direction: column
+            align-items: flex-start
+            margin-bottom: 40px
+        &__header
+            font-size: 35px
+            margin-bottom: 43px
+        &__service-card
+            width: 280px
+        &__services
+            min-height: 1426px
+        &__text-container
+            padding-top: 7px
+            width: 280px
+        &__card-img
+            width: 280px
+            height: 350px
+        &__card-header
+            margin-bottom: 9px
+        &__card-text
+            width: 201px
+            text-align: center
+    .prices
+        min-height: 585px
+        &__content-container
+            min-height: 457px
+        &__header1
+            font-size: 35px
+            margin-bottom: 57px
+            line-height: 42px
+        &__header2
+            line-height: 35px
+            font-size: 25px
+            margin-bottom: 29px
+        &__text-container
+            margin-bottom: 34px
+            margin-top: 100px
+            max-width: 296px
+    .contacts
+        min-height: 739px
+        padding-top: 40px
+        &__content-container
+            img
+                width: 200px
+                top: 450.5px
+                left: 50%
+                transform: translate(-45%, 0) 
+        &__city-selector
+            top: 151px
+            left: 44.2%
+            transform: translate(-50%, 0)
+        &__dropdown
+            &::before
+                right: -11%
+        &__header
+            top: 0
+    .footer
+        padding-top: 15px
+        min-height: 181px
+        display: flex
+        flex-wrap: wrap
+        align-content: center
+        &__content-container
+            flex-direction: column
+        &__data
+            word-spacing: 16px
+            line-height: 24px
+        &__name
+            line-height: 24px
+        &__social-list
+            li
+
+@media (max-width: 628px)
+    .prices
+        &__content-container
+            align-content: center
+            height: 100%
+        &__price-box
+            margin-bottom: 50px
+        &__header1
+            text-align: center
+        &__header2
+            text-align: center
+        &__text-container
+            margin-top: 0px
+            align-items: center
+            align-self: center
+        &__leaves-img
+            align-self: center
+    .service
+        &__buttons-bar
+            width: 510px
+    .contacts
+        &__dropdown
+            width: 120%
+            &::before
+                right: 11%
+        &__select
+            width: 100%
+
+
+
+@media (max-width: 560px)
+    .service
+        &__services
+            justify-content: center
+
+@media (max-width: 516px)
+    .header
+        &__navbar
+            flex-direction: column
+        &__logo
+            margin-bottom: 25px
+    .welcome
+        &__content-container
+            justify-content: center
+        &__leaves-img
+            display: none
+    .service
+        &__buttons-bar
+            max-width: 410px
+            min-height: 79px
+            flex-wrap: wrap
+            justify-content: space-between
+            align-content: space-between
+        &__button
+            margin-right: 0px
+            width: 121px
+            height: 35px
+            font-size: 15px
+
+@media (max-width: 452px)
+    .header
+        &__nav-list
+            width: 380px
+    .service
+        &__buttons-bar
+            max-width: 252px
+
+
+@media (max-width: 380px)
+    .container
+        max-width: 330px
+    .button
+        width: 121px
+        height: 35px
+        font-size: 15px
+    .nav-menu
+        position: fixed
+        top: 0
+        right: -100%
+        height: 100vh
+        width: 50%
+        background: #D6E7D2
+        z-index: 20
+        transition: 0.6s all
+        &__list
+            display: flex
+            flex-direction: column
+            justify-content: space-evenly
+            align-items: center
+            height: 100%
+            width: 100%
+        &__list-item
+            margin-right: 0
+            font-size: 20px
+        &_active
+            right: 0
+    .hamburger
+        position: absolute
+        top: 35px
+        right: 25px
+        width: 40px
+        height: 26px
+        z-index: 30
+        span
+            height: 2px
+            width: 100%
+            display: block
+            background-color: $light-grey-color
+            margin-bottom: 6px 
+            transition: 1s all
+            &:last-child
+                margin-bottom: 0
+        &_active
+            span
+                width: 75%
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
+                &:nth-child(4)
+                    display: none
+    .header
+        min-height: 96px
+        &__navbar
+            width: 330px
+            flex-direction: row
+        &__logo
+            margin-bottom: 0px
+    .welcome
+        min-height: 300px
+        padding-top: 26px
+        &__leaves-img
+            display: none
+        &__content-container
+            min-height: 252px
+        &__text-container
+            height: 252px
+        &__header
+            margin-bottom: 20px
+            font-size: 25px
+            line-height: 35px
+        &__text
+            margin-bottom: 26px
+        &__button
+            font-size: 10px
+            width: 100px
+            height: 34px
+    .about
+        min-height: 516px
+        padding-top: 30px
+        &__content-container
+            img
+                width: 150px
+                height: 153px
+        &__text-container
+            max-height: 305px
+            margin-bottom: 0px
+        &__header
+            font-size: 25px
+            max-width: 288px
+            margin-bottom: 14.6px
+        &__text
+            font-size: 15px
+            line-height: 25px
+            max-width: 330px
+    .service
+        min-height: 3150px
+        padding-top: 30px
+        &__buttons-bar
+            max-width: 252px
+        &__header
+            margin-bottom: 39px
+            font-size: 25px
+            max-width: 187px
+        &__services
+            height: 2870px
+            justify-content: center
+    .prices
+        padding-top: 25px
+        min-height: 512px
+        &__content-container
+            align-content: center
+            height: 447px
+        &__price-box
+            width: 224px
+            height: 235px
+            margin-bottom: 20px
+        &__item-box
+            width: 180px
+            height: 177px
+        &__item
+            padding: 16px 40px 16px 30px
+        &__item-content
+            p
+                font-size: 15px
+        &__header1
+            line-height: 30px
+            font-size: 25px
+            margin-bottom: 37px
+            text-align: center
+        &__header2
+            font-size: 20px
+            text-align: center
+            margin-bottom: 20px
+        &__text-container
+            align-items: center
+            margin: 0px
+            max-width: 230px
+        &__leaves-img
+            display: none
+
+    .contacts
+        min-height: 445px
+        padding-top: 25px
+        &__content-container
+            display: flex
+            flex-direction: column
+            align-items: center
+            img
+                width: 100px
+                top: 295.5px
+                left: 48%
+        &__select
+            width: 300px
+        &__city-selector
+            position: static
+            transform: translate(0, 0)
+        &__dropdown
+            width: 100%
+            &::before
+                right: 23px
+        &__header
+            position: static
+            transform: translate(0, 0)
+            font-size: 25px
+            margin-bottom: 81px
+    .footer
+        min-height: 146px
+        padding-top: 4px
+        &__content-container
+            min-height: 105px
+        &__data
+        &__name
+        &__social-list
+            height: 24px
+            li
+    

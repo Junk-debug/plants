@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
     <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <!-- favicons -->
     <link rel="apple-touch-icon" sizes="57x57" href="icons/favicon.ico">
     <link rel="apple-touch-icon" sizes="60x60" href="icons/favicon.ico/apple-icon-60x60.png">
@@ -29,18 +31,24 @@
 </head>
 <body>
     <header class="header">
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
         <div class="header__navbar">
             <div class="header__logo">
                 <img width="20" src="icons/logo_vector.svg" alt="logo">
                 <p class="header__logo-text">Plants</p>
             </div>
-            <nav>
-                <ul class="header__nav-list list">
-                    <li class="header__list-item list-item"><a href="#home">Home</a></li>
-                    <li class="header__list-item list-item"><a href="#about-us">About us</a></li>
-                    <li class="header__list-item list-item"><a href="#service">Service</a></li>
-                    <li class="header__list-item list-item"><a href="#prices">Price</a></li>
-                    <li class="header__list-item list-item"><a href="#contacts">Contacts</a></li>
+            <nav class="nav-menu">
+                <ul class="header__nav-list nav-menu__list">
+                    <li class="nav-menu__list-item"><a href="#home">Home</a></li>
+                    <li class="nav-menu__list-item"><a href="#about-us">About us</a></li>
+                    <li class="nav-menu__list-item"><a href="#service">Service</a></li>
+                    <li class="nav-menu__list-item"><a href="#prices">Price</a></li>
+                    <li class="nav-menu__list-item"><a href="#contacts">Contacts</a></li>
                 </ul>
             </nav>
         </div>
@@ -144,7 +152,6 @@
         </section>
         <section id="prices" class="prices">
             <div class="prices__content-container container">
-                <div class="prices__prices">
                     <h2 class="prices__header1">Prices</h2>
                     <div class="prices__price-box">
                         <div class="prices__item-box">
@@ -169,23 +176,22 @@
                         </div>
 
                     </div>
-                </div>
                 <div class="prices__text-container">
-                    <h2 class="prices__header2">
+                    <h3 class="prices__header2">
                         Our best <span class="green">gardeners</span> 
                         are ready to help you
-                    </h2>
+                    </h3>
                     <button class="prices__button button">
                         Contact us
                     </button>
                 </div>
-                <img width="152" src="img/leavs2.png" alt="leaves">
+                <img class="prices__leaves-img" width="152" src="img/leavs2.png" alt="leaves">
             </div>
         </section>
         <section id="contacts" class="contacts">
             <div class="contacts__content-container container">
                 <img width="400" src="img/contact_woman.png" alt="gardener">
-                <h3 class="contacts__header">Contact us</h3>
+                <h2 class="contacts__header">Contact us</h2>
                 <div class="contacts__city-selector">
                     <div class="contacts__dropdown">
                         <select class="contacts__select" name="city">
@@ -209,10 +215,10 @@
                 <li><a href="https://www.instagram.com/rsschool_news/">
                     <img src="icons/inst.svg" alt="instagram">
                 </a></li>
-                <li><a href="https://twitter.com/rollingscopes">
+                <li><a href="https://www.facebook.com/rsschoolEN/">
                     <img src="icons/fb.svg" alt="facebook">
                 </a></li>
-                <li><a href="https://www.facebook.com/rsschoolEN/">
+                <li><a href="https://twitter.com/rollingscopes">
                     <img src="icons/tw.svg" alt="twitter">
                 </a></li>
                 <li><a href="https://www.pinterest.com/">
@@ -223,6 +229,7 @@
     </footer>
 
     <script src="js/index.js"></script>
+    <script src="js/hamburger.js"></script>
 
 </body>
 </html>
