@@ -31,18 +31,24 @@
 </head>
 <body>
     <header class="header">
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
         <div class="header__navbar">
             <div class="header__logo">
                 <img width="20" src="icons/logo_vector.svg" alt="logo">
                 <p class="header__logo-text">Plants</p>
             </div>
-            <nav>
-                <ul class="header__nav-list list">
-                    <li class="header__list-item list-item"><a href="#home">Home</a></li>
-                    <li class="header__list-item list-item"><a href="#about-us">About us</a></li>
-                    <li class="header__list-item list-item"><a href="#service">Service</a></li>
-                    <li class="header__list-item list-item"><a href="#prices">Price</a></li>
-                    <li class="header__list-item list-item"><a href="#contacts">Contacts</a></li>
+            <nav class="nav-menu">
+                <ul class="header__nav-list nav-menu__list">
+                    <li class="nav-menu__list-item"><a href="#home">Home</a></li>
+                    <li class="nav-menu__list-item"><a href="#about-us">About us</a></li>
+                    <li class="nav-menu__list-item"><a href="#service">Service</a></li>
+                    <li class="nav-menu__list-item"><a href="#prices">Price</a></li>
+                    <li class="nav-menu__list-item"><a href="#contacts">Contacts</a></li>
                 </ul>
             </nav>
         </div>
@@ -179,7 +185,7 @@
                         Contact us
                     </button>
                 </div>
-                <img width="152" src="img/leavs2.png" alt="leaves">
+                <img class="prices__leaves-img" width="152" src="img/leavs2.png" alt="leaves">
             </div>
         </section>
         <section id="contacts" class="contacts">
@@ -223,6 +229,7 @@
     </footer>
 
     <script src="js/index.js"></script>
+    <script src="js/hamburger.js"></script>
 
 </body>
 </html>
