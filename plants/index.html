@@ -155,26 +155,66 @@
                     <h2 class="prices__header1">Prices</h2>
                     <div class="prices__price-box">
                         <div class="prices__item-box">
-                            <div class="prices__item">
+
+
+                            <div class="prices__item price-info basics">
                                 <div class="prices__item-content">
                                     <p>Basics</p>
-                                <img src="icons/accordion_btn.svg" alt="accordion">
+                                    <img id="basicsBtn" src="icons/accordion_btn.svg" alt="accordion">
+                                </div>
+                                <div class="price-info__content basicsInfo">
+                                    <div class="price-info__line"></div>
+                                    <p class="price-info__text">Release of 
+                                        Letraset sheets containing Lorem Ipsum 
+                                        passages, and more recently
+                                    </p>
+                                    <p class="price-info__price">
+                                        <span>$</span><span style="font-size: 16px;">15</span> / per hour
+                                    </p>
+                                    <button onclick="document.location='#contacts'" class="price-info__button">Order</button>
                                 </div>
                             </div>
-                            <div class="prices__item">
+
+
+                            <div class="prices__item price-info standart">
                                 <div class="prices__item-content">
-                                    <p>Standard</p>
-                                <img src="icons/accordion_btn.svg" alt="accordion">
+                                    <p>Standart</p>
+                                    <img id="standartBtn" src="icons/accordion_btn.svg" alt="accordion">
+                                </div>
+                                <div class="price-info__content standartInfo">
+                                    <div class="price-info__line"></div>
+                                    <p class="price-info__text">Release of 
+                                        Letraset sheets containing Lorem Ipsum 
+                                        passages, and more recently
+                                    </p>
+                                    <p class="price-info__price">
+                                        <span>$</span><span style="font-size: 16px;">25</span> / per hour
+                                    </p>
+                                    <button onclick="document.location='#contacts'" class="price-info__button">Order</button>
                                 </div>
                             </div>
-                            <div class="prices__item">
+
+
+                            <div class="prices__item price-info pro-care">
                                 <div class="prices__item-content">
                                     <p>Pro care</p>
-                                <img src="icons/accordion_btn.svg" alt="accordion">
+                                    <img id="proCareBtn" src="icons/accordion_btn.svg" alt="accordion">
+                                </div>
+                                <div class="price-info__content proCareInfo">
+                                    <div class="price-info__line"></div>
+                                    <p class="price-info__text">Release of 
+                                        Letraset sheets containing Lorem Ipsum 
+                                        passages, and more recently
+                                    </p>
+                                    <p class="price-info__price">
+                                        <span>$</span><span style="font-size: 16px;">35</span> / per hour
+                                    </p>
+                                    <button onclick="document.location='#contacts'" class="price-info__button">Order</button>
                                 </div>
                             </div>
-                        </div>
 
+
+                        </div>
                     </div>
                 <div class="prices__text-container">
                     <h3 class="prices__header2">
@@ -231,6 +271,7 @@
     <script src="js/index.js"></script>
     <script src="js/hamburger.js"></script>
     <script src="js/blur.js"></script>
+    <script src="js/prices.js"></script>
 
 </body>
 </html>

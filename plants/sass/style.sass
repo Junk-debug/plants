@@ -200,7 +200,7 @@ li
     padding-top: 40px
     min-height: 560px
     &__content-container
-        height: 405px
+        height: 500px
         display: flex
         flex-flow: column wrap
         align-content: space-between
@@ -211,21 +211,21 @@ li
         border: 1px solid $border-color
         border-radius: 20px
         width: 332px
-        height: 282px
+        min-height: 282px
         display: flex
         justify-content: center
-        align-items: center
+        padding: 34px 0 34px 0
     &__item-box
         width: 250px
-        height: 214px
-        display: flex
-        flex-direction: column
-        justify-content: space-between
+        min-height: 214px
     &__item
         padding: 16px 40px
         background-color: $bg-color
         border-radius: 20px
         height: 50px
+        margin-bottom: 32px
+        &:last-child
+            margin-bottom: 0px
     &__item-content
         display: flex
         justify-content: space-between
@@ -234,6 +234,8 @@ li
         p
             font-size: 20px
             font-weight: 700
+        img
+            cursor: pointer
     &__header1
         font-size: 40px
         line-height: 48px
@@ -253,6 +255,52 @@ li
         font-family: 'Inika', serif
         color: $orange-color
         font-size: 20px
+
+.price-info
+    &_active
+        height: 154px
+        background: #D6E7D2
+    &__content
+        display: none
+    &__content_active
+        display: block
+    &__line
+        margin-top: 10px
+        margin-bottom: 6px
+        height: 0.5px
+        background: #AEA1A1
+    &__text
+        font-size: 10px
+        color: $light-grey-color
+        font-weight: 300
+        line-height: 10px
+        margin-bottom: 6px
+    &__price
+        font-size: 12px
+        margin-bottom: 12px
+        span
+            color: $orange-color
+            font-weight: 700
+    &__button
+        width: 86px
+        height: 25px
+        background: #FFFFFF
+        border: none
+        cursor: pointer
+        border-radius: 10px
+        font-size: 14px
+        font-weight: 700
+        color: $light-grey-color
+
+
+
+
+
+.standart
+    &_active
+.pro
+    &_active
+
 
 .contacts
     min-height: 550px
