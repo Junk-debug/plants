@@ -12,8 +12,8 @@ const proCareInfo = document.querySelector('.proCareInfo');
 
 const toggleSrc = (img) => {
     if (img.src.endsWith('icons/accordion_btn.svg')) {
-        img.src = 'icons/accordion_btn-dark.svg';
-    } else if (img.src.endsWith('icons/accordion_btn-dark.svg')) {
+        img.src = 'icons/accordion_btn-dark-rotated.svg';
+    } else if (img.src.endsWith('icons/accordion_btn-dark-rotated.svg')) {
         img.src = 'icons/accordion_btn.svg';
     };
 };

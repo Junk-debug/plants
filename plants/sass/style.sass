@@ -292,16 +292,6 @@ li
         font-weight: 700
         color: $light-grey-color
 
-
-
-
-
-.standart
-    &_active
-.pro
-    &_active
-
-
 .contacts
     min-height: 550px
     background-color: $bg-color
@@ -326,6 +316,44 @@ li
             display: block
             background: url('../icons/accordion_btn-dark.svg') no-repeat right
             pointer-events: none
+    &__dropdown-menu
+        display: none
+        width: 448px
+        height: 214px
+        margin-top: 47px
+        padding: 17px 33px 0 33px
+        background: transparent 
+        border: 1px solid #000000
+        border-radius: 20px
+        &_active
+            display: block
+    &__info-city
+        display: flex
+        flex-direction: column
+        th
+            text-align: left
+            font-weight: 400
+            font-family: 'Inter'
+            line-height: 40px
+            font-size: 16px
+            letter-spacing: 0.8px
+            span
+                color: $light-grey-color
+    &__info-text
+        margin-bottom: 18px
+    &__call-button
+        align-self: center
+        width: 122px
+        height: 26px
+        border: 1px solid #E06733
+        border-radius: 5px
+        background: transparent
+        cursor: pointer
+        font-family: 'Inika'
+        font-weight: 700
+        font-size: 10px
+        line-height: 13px
+        color: $light-grey-color
     &__select
         //reset
         outline: none
@@ -345,6 +373,8 @@ li
         line-height: 40px
         letter-spacing: 1px
         color: $light-grey-color
+        &_active
+            background: #C1E698
     &__header
         font-family: 'Inika', serif
         color: $green-color

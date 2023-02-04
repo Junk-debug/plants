@@ -234,15 +234,33 @@
                 <h2 class="contacts__header">Contact us</h2>
                 <div class="contacts__city-selector">
                     <div class="contacts__dropdown">
-                        <select class="contacts__select" name="city">
+                        <select id="contactsSelect" class="contacts__select" name="city">
                             <option selected="selected" disabled="disabled">City</option>
-                            <option value="">Canandaigua, NY</option>
-                            <option value="">New York City</option>
-                            <option value="">Yonkers, NY</option>
-                            <option value="">Sherrill, NY</option>
+                            <option value="canandaigua">Canandaigua, NY</option>
+                            <option value="newYorkCity">New York City</option>
+                            <option value="yonkers">Yonkers, NY</option>
+                            <option value="sherrill">Sherrill, NY</option>
                         </select>
                     </div>
-                    
+                    <div class="contacts__dropdown-menu">
+                        <div id="dropdownInfo" class="contacts__info-city">
+                            <table class="contacts__info-text">
+                                <tr>
+                                    <th>City:</th>
+                                    <th><span id="cityInfo"></span></th>
+                                </tr>
+                                <tr>
+                                    <th>Phone:</th>
+                                    <th><span id="phoneInfo"></span></th>
+                                </tr>
+                                <tr>
+                                    <th>Office adress:</th>
+                                    <th><span id="officeAdressInfo"></span></th>
+                                </tr>
+                            </table>
+                            <button onclick="phoneCall();" class="contacts__call-button">Call us</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -272,6 +290,7 @@
     <script src="js/hamburger.js"></script>
     <script src="js/blur.js"></script>
     <script src="js/prices.js"></script>
+    <script src="js/select.js" ></script>
 
 </body>
 </html>
